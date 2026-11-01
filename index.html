@@ -1,8 +1,16 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Golden Champions</title>
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#F6F4F1">
-<meta name="description" content="Braids, twists, cornrows, wash & set and haircuts by Victoria at Golden Champions, 1a Pier Road, Erith DA8 1TA. Message on WhatsApp to agree a price.">
+<title>Golden Champions | Braids and twists in Erith</title>
+<meta name="description" content="Single plaits, Ghana braids, cornrows, twists, wash &amp; set and haircuts by Victoria at Golden Champions, 1a Pier Road, Erith DA8 1TA. Build your quote and send it on WhatsApp.">
+<meta name="theme-color" content="#17110D">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Golden Champions | Braids and twists in Erith">
+<meta property="og:description" content="Braids by Victoria on Pier Road, Erith. Build your quote and send it on WhatsApp.">
+<meta property="og:image" content="https://golden-champions.vercel.app/img/knotless-auburn.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2317110D'/%3E%3Cpath d='M22 8c0 11 20 11 20 22S22 41 22 52M42 8c0 11-20 11-20 22s20 11 20 22' fill='none' stroke='%23D4A64A' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
@@ -12,6 +20,7 @@
   "@type": "HairSalon",
   "name": "Golden Champions",
   "legalName": "Golden Champions UK Ltd",
+  "image": "https://golden-champions.vercel.app/img/knotless-auburn.webp",
   "telephone": ["+447886109836", "+441322335092"],
   "address": {"@type": "PostalAddress","streetAddress": "1a Pier Road","addressLocality": "Erith","addressRegion": "Kent","postalCode": "DA8 1TA","addressCountry": "GB"},
   "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens": "10:00","closes": "19:00"},{"@type": "OpeningHoursSpecification","dayOfWeek": "Saturday","opens": "09:00","closes": "19:00"}],
@@ -20,183 +29,200 @@
 }
 </script>
 <style>
-/* Layout: left-aligned editorial column; split hero (type left, tall photo right) that stacks on phones; services as a price-list menu, not cards. */
-:root {
-  --paper: #F6F4F1;
-  --paper-2: #ECE7E1;
-  --ink: #23170F;
-  --ink-soft: #6B5A4E;
-  --gold: #9C7426;
-  --gold-bright: #C99A3B;
-  --line: #D9D0C6;
-  --on-gold: #FFFFFF;
-  --wa: #1F7A4D;
-  --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
-  --body: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
-  --gutter: clamp(16px, 5vw, 56px);
-  --max: 1160px;
+/* Layout: warm salon-dark default; split hero (type + owner left, arched photo right); quote builder with a live WhatsApp preview as the signature; price-list menu; gallery that feeds the builder. */
+:root{
+  --paper:#17110D; --paper-2:#211913; --paper-3:#2B211A; --ink:#F1EAE2; --ink-soft:#B5A699;
+  --gold:#D4A64A; --gold-bright:#E2B85E; --line:#3A2E25; --on-gold:#1A120C; --wa:#25A564; --wa-ink:#fff;
+  --chat:#0B141A; --bubble:#005C4B;
+  --display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --gutter:clamp(16px,5vw,56px); --max:1180px;
+  color-scheme:dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #17110D; --paper-2: #211913; --ink: #F1EAE2; --ink-soft: #B5A699;
-    --gold: #D4A64A; --gold-bright: #E2B85E; --line: #3A2E25; --on-gold: #1A120C; --wa: #3FAE77;
-    color-scheme: dark;
-  }
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){--paper:#F6F4F1;--paper-2:#ECE7E1;--paper-3:#E3DBD2;--ink:#23170F;--ink-soft:#6B5A4E;--gold:#9C7426;--gold-bright:#B8892F;--line:#D9D0C6;--on-gold:#FFFFFF;--wa:#1F7A4D;color-scheme:light}
 }
-:root[data-theme="dark"] {
-  --paper: #17110D; --paper-2: #211913; --ink: #F1EAE2; --ink-soft: #B5A699;
-  --gold: #D4A64A; --gold-bright: #E2B85E; --line: #3A2E25; --on-gold: #1A120C; --wa: #3FAE77;
-  color-scheme: dark;
-}
+:root[data-theme="light"]{--paper:#F6F4F1;--paper-2:#ECE7E1;--paper-3:#E3DBD2;--ink:#23170F;--ink-soft:#6B5A4E;--gold:#9C7426;--gold-bright:#B8892F;--line:#D9D0C6;--on-gold:#FFFFFF;--wa:#1F7A4D;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-top:env(safe-area-inset-top,0px)}
+img{max-width:100%;display:block}
+a{color:inherit}
+a:focus-visible,button:focus-visible,label:focus-within{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.02em}
+p{margin:0}
+.wrap{max-width:var(--max);margin-inline:auto;padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+.eyebrow{font-size:.8rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body {
-  background: var(--paper); color: var(--ink);
-  font: 400 1.0625rem/1.6 var(--body);
-  -webkit-font-smoothing: antialiased;
-}
-a { color: inherit; }
-a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
-h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: -0.02em; }
-p { margin: 0; }
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.mark{font-family:var(--display);font-weight:800;font-size:1.25rem;text-decoration:none;letter-spacing:-.03em;display:flex;align-items:center;gap:10px}
+.mark svg{width:22px;height:22px;flex:none}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a.link{text-decoration:none;color:var(--ink-soft);font-weight:500;font-size:.95rem}
+.nav a.link:hover{color:var(--ink)}
+@media (max-width:760px){.nav a.link{display:none}}
 
-.wrap { max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;justify-content:center;padding:14px 22px;border-radius:999px;font:600 1rem/1.1 var(--body);text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:transform .15s,background-color .15s,box-shadow .15s;white-space:nowrap;min-height:48px}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-wa{background:var(--wa);color:var(--wa-ink)}
+.btn-wa:hover{transform:translateY(-1px);box-shadow:0 10px 24px -10px color-mix(in srgb,var(--wa) 80%,transparent)}
+.btn-gold{background:var(--gold);color:var(--on-gold)}
+.btn-gold:hover{background:var(--gold-bright);transform:translateY(-1px)}
+.btn-line{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-line:hover{background:var(--ink);color:var(--paper)}
+.btn-sm{padding:10px 16px;font-size:.92rem;min-height:40px}
 
-/* Header */
-.top {
-  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
-  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--line);
-}
-.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
-.mark { font-family: var(--display); font-weight: 800; font-size: 1.25rem; text-decoration: none; letter-spacing: -0.03em; display: flex; align-items: center; gap: 10px; }
-.mark svg { width: 22px; height: 22px; flex: none; }
-.nav { display: flex; gap: 28px; align-items: center; }
-.nav a.link { text-decoration: none; color: var(--ink-soft); font-weight: 500; font-size: 0.95rem; }
-.nav a.link:hover { color: var(--ink); }
-@media (max-width: 760px) { .nav a.link { display: none; } }
-
-/* Buttons */
-.btn {
-  display: inline-flex; align-items: center; gap: 10px; justify-content: center;
-  padding: 14px 22px; border-radius: 999px; font-weight: 600; font-size: 1rem;
-  text-decoration: none; border: 1.5px solid transparent; transition: transform .15s ease, background-color .15s ease;
-  white-space: nowrap;
-}
-.btn svg { width: 20px; height: 20px; flex: none; }
-.btn-wa { background: var(--wa); color: #fff; }
-.btn-wa:hover { transform: translateY(-1px); }
-.btn-line { border-color: var(--ink); color: var(--ink); }
-.btn-line:hover { background: var(--ink); color: var(--paper); }
-.btn-sm { padding: 10px 16px; font-size: 0.92rem; }
-@media (prefers-reduced-motion: reduce) { .btn { transition: none; } .btn-wa:hover { transform: none; } }
-
-/* Hero */
-.hero .wrap {
-  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: clamp(28px, 5vw, 72px);
-  align-items: end; padding-block: clamp(40px, 7vw, 96px) clamp(48px, 7vw, 88px);
-}
-.hero-copy { min-width: 0; display: grid; gap: 28px; }
-.hero h1 {
-  font-size: clamp(3.2rem, 10vw, 7.6rem); line-height: 0.88; font-weight: 800; letter-spacing: -0.045em;
-}
-.hero h1 span { display: block; color: var(--gold); }
-.lede { font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: var(--ink-soft); max-width: 34ch; }
-.cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
-@media (max-width: 480px) { .cta-row .btn { flex: 1 1 100%; } }
-.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; padding-top: 24px; border-top: 1px solid var(--line); max-width: 560px; }
-.facts dt { font-size: 0.82rem; color: var(--ink-soft); }
-.facts dd { margin: 2px 0 0; font-weight: 600; }
-.hero-photo { margin: 0; min-width: 0; position: relative; }
-.hero-photo img { display: block; width: 100%; height: auto; max-height: 76vh; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 30%; border-radius: 220px 220px 6px 6px; }
-.hero-photo figcaption { margin-top: 10px; font-size: 0.85rem; color: var(--ink-soft); }
-@media (max-width: 820px) {
-  .hero .wrap { grid-template-columns: minmax(0, 1fr); align-items: start; }
-  .hero-photo { max-width: 460px; }
-  .hero-photo img { aspect-ratio: 4 / 3; object-position: center 20%; border-radius: 160px 160px 6px 6px; }
+/* hero */
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 70% at 85% 30%,color-mix(in srgb,var(--gold) 16%,transparent),transparent 70%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5vw,72px);align-items:center;padding-block:clamp(40px,6vw,88px) clamp(48px,7vw,96px)}
+.hero-copy{min-width:0;display:grid;gap:26px}
+.hero h1{font-size:clamp(3.1rem,9vw,7rem);line-height:.9;font-weight:800;letter-spacing:-.045em}
+.hero h1 span{display:block;color:var(--gold)}
+.lede{font-size:clamp(1.1rem,1.8vw,1.3rem);color:var(--ink-soft);max-width:36ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+@media (max-width:480px){.cta-row .btn{flex:1 1 100%}}
+.owner{display:flex;gap:14px;align-items:center;max-width:470px;padding:14px 16px;border-radius:18px;background:var(--paper-2);border:1px solid var(--line)}
+.owner .av{flex:none;width:56px;height:56px;border-radius:50%;background:linear-gradient(140deg,var(--gold-bright),var(--gold));color:var(--on-gold);display:grid;place-items:center;font:800 1.5rem/1 var(--display);box-shadow:0 0 0 3px color-mix(in srgb,var(--gold) 30%,transparent)}
+.owner p{font-size:.98rem;line-height:1.4}
+.owner b{display:block;margin-top:4px;font-size:.88rem}
+.owner b span{font-weight:400;color:var(--ink-soft)}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding-top:22px;border-top:1px solid var(--line);max-width:560px;margin:0}
+.facts dt{font-size:.82rem;color:var(--ink-soft)}
+.facts dd{margin:2px 0 0;font-weight:600}
+.hero-photo{margin:0;min-width:0;position:relative}
+.hero-photo img{width:100%;height:auto;max-height:78vh;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;border-radius:240px 240px 10px 10px;box-shadow:0 40px 80px -40px rgba(0,0,0,.6)}
+.hero-photo .tag{position:absolute;left:-14px;bottom:28px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:.9rem;box-shadow:0 18px 40px -18px rgba(0,0,0,.5)}
+.hero-photo .tag b{display:block;font-family:var(--display);font-size:1.05rem}
+.hero-photo .tag span{color:var(--ink-soft)}
+@media (max-width:820px){
+  .hero .wrap{grid-template-columns:minmax(0,1fr)}
+  .hero-photo{max-width:460px}
+  .hero-photo img{aspect-ratio:4/3;object-position:center 20%;border-radius:160px 160px 10px 10px}
+  .hero-photo .tag{left:12px}
 }
 
-/* Section scaffolding */
-section { padding-block: clamp(56px, 8vw, 104px); }
-.sec-head { display: grid; gap: 14px; margin-bottom: clamp(32px, 4vw, 52px); max-width: 640px; }
-.sec-head h2 { font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 0.98; font-weight: 800; }
-.sec-head p { color: var(--ink-soft); }
+/* quote builder */
+section{padding-block:clamp(56px,8vw,104px)}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(28px,4vw,48px);max-width:660px}
+.sec-head h2{font-size:clamp(2.2rem,5vw,3.6rem);line-height:.98;font-weight:800}
+.sec-head p{color:var(--ink-soft)}
+.quote{background:var(--paper-2);border-block:1px solid var(--line)}
+.qb{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(24px,4vw,56px);align-items:start}
+.qb-form{display:grid;gap:22px;min-width:0}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{font-weight:600;margin-bottom:10px;padding:0}
+legend small{font-weight:400;color:var(--ink-soft)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{position:relative}
+.chips input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.chips span{display:inline-flex;align-items:center;min-height:44px;padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);font-weight:500;font-size:.97rem;transition:background-color .15s,border-color .15s,color .15s;user-select:none}
+.chips label:hover span{border-color:var(--ink-soft)}
+.chips input:checked+span{background:var(--gold);border-color:var(--gold);color:var(--on-gold)}
+.chips input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
+.qb-form input[type=date]{font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:11px 14px;min-height:46px;max-width:100%}
+.qb-form input[type=date]:focus{outline:none;border-color:var(--gold)}
+/* phone preview */
+.phone{position:sticky;top:96px;min-width:0;border-radius:34px;background:#0a0a0a;padding:10px;box-shadow:0 0 0 1px rgba(255,255,255,.08),0 40px 80px -40px rgba(0,0,0,.7);max-width:400px;justify-self:center;width:100%}
+.screen{border-radius:26px;overflow:hidden;background:var(--chat);color:#E9EDEF;display:flex;flex-direction:column;min-height:440px}
+.chat-top{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#1F2C34}
+.chat-top .av{width:36px;height:36px;border-radius:50%;background:linear-gradient(140deg,#E2B85E,#9C7426);display:grid;place-items:center;color:#1A120C;font:800 1rem/1 var(--display)}
+.chat-top b{display:block;font-size:.95rem}
+.chat-top small{color:#8696A0;font-size:.78rem}
+.chat-body{flex:1;padding:18px 14px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;background:radial-gradient(circle at 20% 20%,rgba(255,255,255,.025) 1px,transparent 1.5px) 0 0/18px 18px}
+.bubble{align-self:flex-end;max-width:88%;background:var(--bubble);color:#E9EDEF;border-radius:12px 12px 2px 12px;padding:9px 12px 20px;position:relative;font-size:.95rem;line-height:1.42;white-space:pre-wrap;word-break:break-word;box-shadow:0 1px 1px rgba(0,0,0,.3)}
+.bubble .t{position:absolute;right:10px;bottom:4px;font-size:.68rem;color:#9FD5C8}
+.bubble.photo{padding:4px 4px 20px;max-width:62%}
+.bubble.photo img{border-radius:9px;aspect-ratio:3/4;object-fit:cover;width:100%}
+.bubble.photo .t{right:8px}
+.bubble.photo[hidden]{display:none}
+.bubble .caret{display:inline-block;width:2px;height:1em;background:#9FD5C8;vertical-align:-2px;margin-left:1px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.chat-send{display:flex;gap:8px;align-items:center;padding:10px;background:#1F2C34}
+.chat-send .fake{flex:1;border-radius:999px;background:#2A3942;color:#8696A0;padding:10px 14px;font-size:.9rem}
+.chat-send .go{width:42px;height:42px;border-radius:50%;background:#00A884;display:grid;place-items:center;flex:none}
+.qb-actions{display:grid;gap:10px;margin-top:4px}
+.qb-actions .btn{justify-self:start}
+.qb-note{font-size:.9rem;color:var(--ink-soft)}
+@media (max-width:860px){.qb{grid-template-columns:minmax(0,1fr)}.phone{position:relative;top:0}}
 
-/* Services: a salon price list */
-.services { background: var(--paper-2); }
-.menu { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: clamp(32px, 6vw, 88px); }
-.menu li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 20px; padding-block: 22px; border-top: 1px solid var(--line); align-items: baseline; }
-.menu h3 { font-size: 1.45rem; font-weight: 600; letter-spacing: -0.02em; }
-.menu .price { font-size: 0.9rem; color: var(--ink-soft); white-space: nowrap; }
-.menu p { grid-column: 1 / -1; color: var(--ink-soft); font-size: 0.98rem; max-width: 46ch; }
-.menu a.ask { grid-column: 1 / -1; justify-self: start; font-weight: 600; font-size: 0.95rem; color: var(--gold); text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
-.menu a.ask:hover { text-decoration-thickness: 2px; }
-@media (max-width: 760px) { .menu { grid-template-columns: 1fr; } }
-.price-note { margin-top: 36px; padding: 22px 24px; border-left: 3px solid var(--gold); background: var(--paper); max-width: 640px; }
-.price-note strong { display: block; font-family: var(--display); font-size: 1.2rem; margin-bottom: 4px; }
+/* services menu */
+.menu{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;column-gap:clamp(32px,6vw,88px)}
+.menu li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 20px;padding-block:22px;border-top:1px solid var(--line);align-items:baseline}
+.menu h3{font-size:1.45rem;font-weight:600}
+.menu .price{font-size:.9rem;color:var(--ink-soft);white-space:nowrap}
+.menu p{grid-column:1/-1;color:var(--ink-soft);font-size:.98rem;max-width:46ch}
+.menu button.ask{grid-column:1/-1;justify-self:start;font:600 .95rem/1.4 var(--body);color:var(--gold);background:none;border:0;padding:6px 0;cursor:pointer;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.menu button.ask:hover{text-decoration-thickness:2px}
+@media (max-width:760px){.menu{grid-template-columns:1fr}}
 
-/* Gallery */
-.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(10px, 2vw, 24px); }
-.gallery figure { margin: 0; min-width: 0; }
-.gallery img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; background: var(--paper-2); }
-.gallery figcaption { margin-top: 10px; font-weight: 600; }
-.gallery figcaption span { display: block; font-weight: 400; color: var(--ink-soft); font-size: 0.92rem; }
-.gallery figure:nth-child(2) { margin-top: clamp(0px, 6vw, 72px); }
-@media (max-width: 760px) {
-  .gallery { grid-template-columns: repeat(3, 78%); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scrollbar-width: none; }
-  .gallery figure { scroll-snap-align: start; }
-  .gallery figure:nth-child(2) { margin-top: 0; }
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,2vw,24px)}
+.gallery figure{margin:0;min-width:0;position:relative}
+.gallery .ph{position:relative;overflow:hidden;border-radius:10px}
+.gallery img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;background:var(--paper-2);transition:transform .6s}
+.gallery figure:hover img{transform:scale(1.04)}
+.gallery .ph button{position:absolute;left:12px;right:12px;bottom:12px;opacity:0;transform:translateY(8px);transition:opacity .25s,transform .25s}
+.gallery figure:hover .ph button,.gallery .ph button:focus-visible{opacity:1;transform:none}
+@media (hover:none){.gallery .ph button{opacity:1;transform:none}}
+.gallery figcaption{margin-top:10px;font-weight:600}
+.gallery figcaption span{display:block;font-weight:400;color:var(--ink-soft);font-size:.92rem}
+.gallery figure:nth-child(2){margin-top:clamp(0px,6vw,72px)}
+@media (max-width:760px){
+  .gallery{grid-template-columns:repeat(3,78%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin-inline:calc(var(--gutter)*-1);padding-inline:var(--gutter);scrollbar-width:none}
+  .gallery figure{scroll-snap-align:start}
+  .gallery figure:nth-child(2){margin-top:0}
 }
-.more { margin-top: 32px; }
+.more{margin-top:32px}
 
-/* Steps */
-.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(24px, 4vw, 48px); counter-reset: s; }
-.steps li { counter-increment: s; display: grid; gap: 10px; align-content: start; }
-.steps li::before { content: counter(s); font-family: var(--display); font-weight: 800; font-size: 3.4rem; line-height: 1; color: var(--gold); }
-.steps h3 { font-size: 1.35rem; font-weight: 600; }
-.steps p { color: var(--ink-soft); }
-@media (max-width: 760px) { .steps { grid-template-columns: 1fr; } }
+/* steps */
+.alt{background:var(--paper-2)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,4vw,48px);counter-reset:s}
+.steps li{counter-increment:s;display:grid;gap:10px;align-content:start}
+.steps li::before{content:counter(s);font-family:var(--display);font-weight:800;font-size:3.4rem;line-height:1;color:var(--gold)}
+.steps h3{font-size:1.35rem;font-weight:600}
+.steps p{color:var(--ink-soft)}
+@media (max-width:760px){.steps{grid-template-columns:1fr}}
 
-/* Visit */
-.visit { border-top: 1px solid var(--line); }
-.visit-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 88px); }
-.visit-grid > * { min-width: 0; }
-@media (max-width: 760px) { .visit-grid { grid-template-columns: minmax(0, 1fr); } }
-address { font-style: normal; font-size: clamp(1.5rem, 3vw, 2.1rem); font-family: var(--display); font-weight: 600; line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 20px; }
-.hours { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-.hours th, .hours td { text-align: left; padding: 12px 0; border-bottom: 1px solid var(--line); font-weight: 400; }
-.hours td { text-align: right; font-weight: 600; }
-.hours caption { text-align: left; font-family: var(--display); font-weight: 600; font-size: 1.35rem; padding-bottom: 8px; }
-.contact-lines { display: grid; gap: 6px; margin-bottom: 24px; }
-.contact-lines a { font-weight: 600; }
-a.place { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; text-decoration-thickness: 1px; }
-a.place:hover { text-decoration-thickness: 2px; }
-address a.place { text-decoration-thickness: 2px; text-underline-offset: 6px; }
-.phone { font-size: 1.15rem; font-variant-numeric: tabular-nums; user-select: all; }
+/* visit */
+.visit-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,88px)}
+.visit-grid>*{min-width:0}
+@media (max-width:760px){.visit-grid{grid-template-columns:minmax(0,1fr)}}
+address{font-style:normal;font-size:clamp(1.5rem,3vw,2.1rem);font-family:var(--display);font-weight:600;line-height:1.15;letter-spacing:-.02em;margin-bottom:20px}
+.hours{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.hours th,.hours td{text-align:left;padding:12px 0;border-bottom:1px solid var(--line);font-weight:400}
+.hours td{text-align:right;font-weight:600}
+.hours tr.today th,.hours tr.today td{color:var(--gold)}
+.hours caption{text-align:left;font-family:var(--display);font-weight:600;font-size:1.35rem;padding-bottom:8px}
+.contact-lines{display:grid;gap:6px;margin-bottom:24px}
+.contact-lines a{font-weight:600}
+a.place{text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:4px;text-decoration-thickness:1px}
+a.place:hover{text-decoration-thickness:2px}
+address a.place{text-decoration-thickness:2px;text-underline-offset:6px}
+.phone-n{font-size:1.15rem;font-variant-numeric:tabular-nums;user-select:all}
 
-/* Footer */
-footer { background: var(--ink); color: var(--paper); padding-block: 48px calc(48px + 72px); }
-footer .wrap { display: grid; gap: 20px; }
-footer .mark { color: var(--paper); }
-footer .legal { font-size: 0.85rem; color: color-mix(in srgb, var(--paper) 70%, var(--ink)); max-width: 70ch; }
-footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; }
-@media (min-width: 761px) { footer { padding-bottom: 48px; } }
+/* footer */
+footer{background:#0F0B08;color:#F1EAE2;padding-block:48px calc(48px + 72px)}
+footer .wrap{display:grid;gap:20px}
+footer .legal{font-size:.85rem;color:#B5A699;max-width:70ch}
+footer .flinks{display:flex;flex-wrap:wrap;gap:20px;font-size:.95rem}
+@media (min-width:761px){footer{padding-bottom:48px}}
 
-/* Sticky phone bar */
-.bar { display: none; }
-@media (max-width: 760px) {
-  .bar {
-    display: flex; gap: 10px; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
-    background: var(--paper); border-top: 1px solid var(--line);
-  }
-  .bar .btn { flex: 1; padding: 13px 12px; }
-  .top .btn-wa { display: none; }
+/* sticky bar */
+.bar{display:none}
+@media (max-width:760px){
+  .bar{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .3s}
+  .bar.show{transform:none}
+  .bar .btn{flex:1;padding:13px 12px}
+  .top .btn-wa{display:none}
 }
 </style>
+</head>
+<body>
 
 <header class="top">
   <div class="wrap">
@@ -205,12 +231,13 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
       Golden Champions
     </a>
     <nav class="nav" aria-label="Main">
+      <a class="link" href="#quote">Get a quote</a>
       <a class="link" href="#services">Services</a>
       <a class="link" href="#work">Work</a>
       <a class="link" href="#visit">Visit</a>
       <a class="btn btn-wa btn-sm" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20to%20ask%20about%20getting%20my%20hair%20done." target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4Z"/></svg>
-        Message on WhatsApp
+        WhatsApp
       </a>
     </nav>
   </div>
@@ -220,14 +247,17 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
   <section class="hero" aria-labelledby="hero-title" style="padding-block:0">
     <div class="wrap">
       <div class="hero-copy">
+        <div class="eyebrow">Hair salon · 1a Pier Road, Erith</div>
         <h1 id="hero-title">Braids, done <span>properly.</span></h1>
-        <p class="lede">Plaits, Ghana braids, cornrows, twists and haircuts by Victoria at Golden Champions in Erith. Message to agree a price.</p>
+        <p class="lede">Single plaits, Ghana braids, cornrows, twists and haircuts by Victoria. Tell her what you want below and get a price straight back on WhatsApp.</p>
         <div class="cta-row">
-          <a class="btn btn-wa" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20to%20ask%20about%20getting%20my%20hair%20done." target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4Z"/></svg>
-            Message on WhatsApp
-          </a>
+          <a class="btn btn-gold" href="#quote">Build my quote
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg></a>
           <a class="btn btn-line" href="tel:+447886109836">Call 07886 109836</a>
+        </div>
+        <div class="owner">
+          <div class="av" aria-hidden="true">V</div>
+          <div><p>Every head of hair is different, so Victoria quotes every style herself before you book.</p><b>Victoria <span>· Golden Champions</span></b></div>
         </div>
         <dl class="facts">
           <div><dt>Open</dt><dd>Mon–Fri 10am–7pm<br>Sat 9am–7pm</dd></div>
@@ -237,53 +267,124 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
         </dl>
       </div>
       <figure class="hero-photo">
-        <img src="img/knotless-auburn.webp" alt="Long, small box braids in black with auburn tones, seen from behind" width="800" height="1200">
-        <figcaption>Small single plaits, black with an auburn blend.</figcaption>
+        <img src="img/knotless-auburn.webp" alt="Long, small single plaits in black with auburn tones, seen from behind" width="800" height="1200" fetchpriority="high">
+        <figcaption class="tag"><b>Done on Pier Road</b><span>Small single plaits, black and auburn</span></figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="services" id="services" aria-labelledby="services-title">
+  <section class="quote" id="quote" aria-labelledby="quote-title">
     <div class="wrap">
       <div class="sec-head">
-        <h2 id="services-title">Services</h2>
-        <p>Every head of hair is different, so prices are agreed by message. Send the style, length and size you want and Victoria will quote you.</p>
+        <div class="eyebrow">Get a price in a minute</div>
+        <h2 id="quote-title">Tell Victoria what you want.</h2>
+        <p>Pick your style, size and length. Your message writes itself, and one tap sends it to Victoria on WhatsApp. Add a photo of the look in WhatsApp for the quickest answer.</p>
       </div>
-      <ul class="menu">
-        <li><h3>Single Plaits</h3><span class="price">Price on enquiry</span><p>Individual box plaits in any size or length, with braiding hair added.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20single%20plaits." target="_blank" rel="noopener">Ask about single plaits</a></li>
-        <li><h3>Ghana Braids</h3><span class="price">Price on enquiry</span><p>Bold, raised cornrows with extensions, straight back or in a pattern.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20Ghana%20braids." target="_blank" rel="noopener">Ask about Ghana braids</a></li>
-        <li><h3>Cornrows</h3><span class="price">Price on enquiry</span><p>Neat cornrows in your own hair or with extensions, any direction or design.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20cornrows." target="_blank" rel="noopener">Ask about cornrows</a></li>
-        <li><h3>Feed-in Braids</h3><span class="price">Price on enquiry</span><p>Cornrows with hair fed in gradually, so each braid starts natural at the root and builds.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20feed-in%20braids." target="_blank" rel="noopener">Ask about feed-in braids</a></li>
-        <li><h3>Boho Braids</h3><span class="price">Price on enquiry</span><p>Braids finished with loose curls through the lengths and curly ends.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20boho%20braids." target="_blank" rel="noopener">Ask about boho braids</a></li>
-        <li><h3>Twist Braids</h3><span class="price">Price on enquiry</span><p>Smooth two-strand twists with extensions, from short to waist length.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20twist%20braids." target="_blank" rel="noopener">Ask about twist braids</a></li>
-        <li><h3>Kinky Twists</h3><span class="price">Price on enquiry</span><p>Twists in textured hair for a fuller, natural-looking finish.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20kinky%20twists." target="_blank" rel="noopener">Ask about kinky twists</a></li>
-        <li><h3>Wash &amp; Set</h3><span class="price">Price on enquiry</span><p>Wash, condition and set for natural or relaxed hair.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20a%20wash%20and%20set." target="_blank" rel="noopener">Ask about wash &amp; set</a></li>
-        <li><h3>Haircuts</h3><span class="price">Price on enquiry</span><p>Cuts and trims. Message with what you'd like done.</p><a class="ask" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20a%20price%20for%20a%20haircut." target="_blank" rel="noopener">Ask about a haircut</a></li>
-      </ul>
-      <div class="price-note">
-        <strong>Getting a quote</strong>
-        <p>A photo of the style you want gets the quickest answer. Mention the length, how thick you want the braids and whether you're bringing your own hair.</p>
+      <div class="qb">
+        <form class="qb-form" id="qb" novalidate>
+          <fieldset>
+            <legend>Style</legend>
+            <div class="chips" id="styleChips">
+              <label><input type="radio" name="style" id="s-plaits" value="single plaits" checked><span>Single plaits</span></label>
+              <label><input type="radio" name="style" id="s-ghana" value="Ghana braids"><span>Ghana braids</span></label>
+              <label><input type="radio" name="style" id="s-corn" value="cornrows"><span>Cornrows</span></label>
+              <label><input type="radio" name="style" id="s-feed" value="feed-in braids"><span>Feed-in braids</span></label>
+              <label><input type="radio" name="style" id="s-boho" value="boho braids"><span>Boho braids</span></label>
+              <label><input type="radio" name="style" id="s-twist" value="twist braids"><span>Twist braids</span></label>
+              <label><input type="radio" name="style" id="s-kinky" value="kinky twists"><span>Kinky twists</span></label>
+              <label><input type="radio" name="style" id="s-wash" value="a wash and set"><span>Wash &amp; set</span></label>
+              <label><input type="radio" name="style" id="s-cut" value="a haircut"><span>Haircut</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="fsSize">
+            <legend>Size of the braids</legend>
+            <div class="chips">
+              <label><input type="radio" name="size" id="z-small" value="small"><span>Small</span></label>
+              <label><input type="radio" name="size" id="z-med" value="medium" checked><span>Medium</span></label>
+              <label><input type="radio" name="size" id="z-large" value="large"><span>Large</span></label>
+              <label><input type="radio" name="size" id="z-unsure" value="not sure"><span>Not sure</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="fsLen">
+            <legend>Length</legend>
+            <div class="chips">
+              <label><input type="radio" name="len" id="l-sh" value="shoulder length"><span>Shoulder</span></label>
+              <label><input type="radio" name="len" id="l-mid" value="mid-back length" checked><span>Mid-back</span></label>
+              <label><input type="radio" name="len" id="l-waist" value="waist length"><span>Waist</span></label>
+              <label><input type="radio" name="len" id="l-long" value="longer than waist length"><span>Longer</span></label>
+            </div>
+          </fieldset>
+          <fieldset id="fsHair">
+            <legend>Braiding hair</legend>
+            <div class="chips">
+              <label><input type="radio" name="hair" id="h-need" value="I'll need you to provide the braiding hair" checked><span>Victoria provides it</span></label>
+              <label><input type="radio" name="hair" id="h-own" value="I'll bring my own braiding hair"><span>I'll bring my own</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>When would you like it? <small>(optional)</small></legend>
+            <input type="date" id="qDate" aria-label="Preferred date">
+          </fieldset>
+        </form>
+
+        <div class="phone" aria-label="Preview of your WhatsApp message">
+          <div class="screen">
+            <div class="chat-top"><span class="av" aria-hidden="true">V</span><div><b>Golden Champions</b><small>Victoria · usually replies by message</small></div></div>
+            <div class="chat-body">
+              <div class="bubble photo" id="bPhoto"><img id="bImg" src="img/box-braids.webp" alt="" width="800" height="1200"><span class="t">your photo here</span></div>
+              <div class="bubble" id="bubble" aria-live="polite"><span id="bText"></span><span class="caret" aria-hidden="true"></span><span class="t" id="bTime">now</span></div>
+            </div>
+            <div class="chat-send"><span class="fake">Message</span><span class="go" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M3 20l18-8L3 4v6l12 2-12 2z" fill="#fff"/></svg></span></div>
+          </div>
+          <div class="qb-actions" style="padding:14px 6px 6px">
+            <a class="btn btn-wa" id="sendWa" href="https://wa.me/447886109836" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.2-.3-.2-.6-.4Z"/></svg>
+              Send to Victoria
+            </a>
+            <p class="qb-note">Opens WhatsApp with this message ready. Prices are agreed with Victoria before you book.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="work" aria-labelledby="work-title">
+  <section id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="services-title">Services</h2>
+        <p>Every head of hair is different, so prices are agreed by message. Tap any style to start your quote.</p>
+      </div>
+      <ul class="menu">
+        <li><h3>Single Plaits</h3><span class="price">Price on enquiry</span><p>Individual box plaits in any size or length, with braiding hair added.</p><button type="button" class="ask" data-style="s-plaits">Quote me for single plaits</button></li>
+        <li><h3>Ghana Braids</h3><span class="price">Price on enquiry</span><p>Bold, raised cornrows with extensions, straight back or in a pattern.</p><button type="button" class="ask" data-style="s-ghana">Quote me for Ghana braids</button></li>
+        <li><h3>Cornrows</h3><span class="price">Price on enquiry</span><p>Neat cornrows in your own hair or with extensions, any direction or design.</p><button type="button" class="ask" data-style="s-corn">Quote me for cornrows</button></li>
+        <li><h3>Feed-in Braids</h3><span class="price">Price on enquiry</span><p>Cornrows with hair fed in gradually, so each braid starts natural at the root and builds.</p><button type="button" class="ask" data-style="s-feed">Quote me for feed-in braids</button></li>
+        <li><h3>Boho Braids</h3><span class="price">Price on enquiry</span><p>Braids finished with loose curls through the lengths and curly ends.</p><button type="button" class="ask" data-style="s-boho">Quote me for boho braids</button></li>
+        <li><h3>Twist Braids</h3><span class="price">Price on enquiry</span><p>Smooth two-strand twists with extensions, from short to waist length.</p><button type="button" class="ask" data-style="s-twist">Quote me for twist braids</button></li>
+        <li><h3>Kinky Twists</h3><span class="price">Price on enquiry</span><p>Twists in textured hair for a fuller, natural-looking finish.</p><button type="button" class="ask" data-style="s-kinky">Quote me for kinky twists</button></li>
+        <li><h3>Wash &amp; Set</h3><span class="price">Price on enquiry</span><p>Wash, condition and set for natural or relaxed hair.</p><button type="button" class="ask" data-style="s-wash">Quote me for a wash &amp; set</button></li>
+        <li><h3>Haircuts</h3><span class="price">Price on enquiry</span><p>Cuts and trims. Message with what you'd like done.</p><button type="button" class="ask" data-style="s-cut">Quote me for a haircut</button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work" class="alt" aria-labelledby="work-title">
     <div class="wrap">
       <div class="sec-head">
         <h2 id="work-title">Recent work</h2>
-        <p>Done in the salon on Pier Road.</p>
+        <p>Done in the salon on Pier Road. See one you like? Ask for it and your quote fills itself in.</p>
       </div>
       <div class="gallery">
         <figure>
-          <img src="img/knotless-auburn.webp" alt="Small single plaits in black with auburn, mid-back length" width="800" height="1200" loading="lazy">
+          <div class="ph"><img src="img/knotless-auburn.webp" alt="Small single plaits in black with auburn, mid-back length" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-small" data-len="l-mid" data-img="img/knotless-auburn.webp">I want this</button></div>
           <figcaption>Single plaits<span>Small, black and auburn</span></figcaption>
         </figure>
         <figure>
-          <img src="img/boho-braids.webp" alt="Brown boho braids with curly ends" width="800" height="1200" loading="lazy">
+          <div class="ph"><img src="img/boho-braids.webp" alt="Brown boho braids with curly ends" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-boho" data-size="z-med" data-len="l-mid" data-img="img/boho-braids.webp">I want this</button></div>
           <figcaption>Boho braids<span>Medium, with curled ends</span></figcaption>
         </figure>
         <figure>
-          <img src="img/box-braids.webp" alt="Black medium box braids, past shoulder length" width="800" height="1200" loading="lazy">
+          <div class="ph"><img src="img/box-braids.webp" alt="Black medium single plaits, past shoulder length" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-med" data-len="l-sh" data-img="img/box-braids.webp">I want this</button></div>
           <figcaption>Single plaits<span>Medium, jet black</span></figcaption>
         </figure>
       </div>
@@ -291,29 +392,29 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
     </div>
   </section>
 
-  <section class="services" aria-labelledby="how-title">
+  <section aria-labelledby="how-title">
     <div class="wrap">
       <div class="sec-head">
         <h2 id="how-title">How to get booked in</h2>
         <p>There's no online booking. Everything is arranged directly with Victoria.</p>
       </div>
       <ol class="steps">
-        <li><h3>Send a message</h3><p>WhatsApp a photo of the style you want, or call. Say the length and size.</p></li>
+        <li><h3>Send your quote</h3><p>Use the quote builder or WhatsApp a photo of the style you want. Say the length and size.</p></li>
         <li><h3>Agree a price and time</h3><p>Victoria will quote you and find a slot, Monday to Saturday or a Sunday by appointment.</p></li>
         <li><h3>Come to the salon</h3><p><a class="place" href="https://www.google.com/maps/search/?api=1&amp;query=1a+Pier+Road+Erith+DA8+1TA" target="_blank" rel="noopener">1a Pier Road, Erith, DA8 1TA</a>. No need to detangle your hair first. Victoria will prep it before she starts.</p></li>
       </ol>
     </div>
   </section>
 
-  <section class="visit" id="visit" aria-labelledby="visit-title">
+  <section class="alt" id="visit" aria-labelledby="visit-title">
     <div class="wrap">
       <div class="sec-head"><h2 id="visit-title">Visit</h2></div>
       <div class="visit-grid">
         <div>
           <address><a class="place" href="https://www.google.com/maps/search/?api=1&amp;query=1a+Pier+Road+Erith+DA8+1TA" target="_blank" rel="noopener">1a Pier Road<br>Erith, Kent<br>DA8 1TA</a></address>
           <div class="contact-lines">
-            <span class="phone">Mobile: 07886 109836</span>
-            <a class="phone" href="tel:+441322335092">Salon: 01322 335092</a>
+            <a class="phone-n" href="tel:+447886109836">Mobile: 07886 109836</a>
+            <a class="phone-n" href="tel:+441322335092">Salon: 01322 335092</a>
             <a href="https://www.google.com/maps/search/?api=1&amp;query=1a+Pier+Road+Erith+DA8+1TA" target="_blank" rel="noopener">Open in Google Maps</a>
             <a href="https://www.tiktok.com/@doldun" target="_blank" rel="noopener">TikTok @doldun</a>
           </div>
@@ -322,13 +423,13 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
         <table class="hours">
           <caption>Opening hours</caption>
           <tbody>
-            <tr><th scope="row">Monday</th><td>10am – 7pm</td></tr>
-            <tr><th scope="row">Tuesday</th><td>10am – 7pm</td></tr>
-            <tr><th scope="row">Wednesday</th><td>10am – 7pm</td></tr>
-            <tr><th scope="row">Thursday</th><td>10am – 7pm</td></tr>
-            <tr><th scope="row">Friday</th><td>10am – 7pm</td></tr>
-            <tr><th scope="row">Saturday</th><td>9am – 7pm</td></tr>
-            <tr><th scope="row">Sunday</th><td>By appointment</td></tr>
+            <tr data-d="1"><th scope="row">Monday</th><td>10am – 7pm</td></tr>
+            <tr data-d="2"><th scope="row">Tuesday</th><td>10am – 7pm</td></tr>
+            <tr data-d="3"><th scope="row">Wednesday</th><td>10am – 7pm</td></tr>
+            <tr data-d="4"><th scope="row">Thursday</th><td>10am – 7pm</td></tr>
+            <tr data-d="5"><th scope="row">Friday</th><td>10am – 7pm</td></tr>
+            <tr data-d="6"><th scope="row">Saturday</th><td>9am – 7pm</td></tr>
+            <tr data-d="0"><th scope="row">Sunday</th><td>By appointment</td></tr>
           </tbody>
         </table>
       </div>
@@ -340,16 +441,76 @@ footer .flinks { display: flex; flex-wrap: wrap; gap: 20px; font-size: 0.95rem; 
   <div class="wrap">
     <span class="mark">Golden Champions</span>
     <div class="flinks">
-      <a href="#services">Services</a><a href="#work">Work</a><a href="#visit">Visit</a>
+      <a href="#quote">Get a quote</a><a href="#services">Services</a><a href="#work">Work</a><a href="#visit">Visit</a>
       <a href="https://www.tiktok.com/@doldun" target="_blank" rel="noopener">TikTok</a>
     </div>
-    <p class="legal">Golden Champions UK Ltd. Registered in England and Wales, company number 15251300. Tel 01322 335092. Registered office: <a href="https://www.google.com/maps/search/?api=1&amp;query=1a+Pier+Road+Erith+DA8+1TA" target="_blank" rel="noopener">1a Pier Road, Erith, DA8 1TA</a>.</p>
+    <p class="legal">Golden Champions UK Ltd. Registered in England and Wales, company number 15251300. Tel 01322 335092. Registered office: 1a Pier Road, Erith, DA8 1TA. Site by Tapcard.</p>
   </div>
 </footer>
 
-<div class="bar" role="navigation" aria-label="Contact">
+<div class="bar" id="bar" role="navigation" aria-label="Contact">
+  <a class="btn btn-gold" href="#quote">Get a quote</a>
   <a class="btn btn-wa" href="https://wa.me/447886109836?text=Hi%20Victoria%2C%20I%27d%20like%20to%20ask%20about%20getting%20my%20hair%20done." target="_blank" rel="noopener">WhatsApp</a>
-  <a class="btn btn-line" href="tel:+447886109836">Call</a>
 </div>
 
-</body></html>
+<script>
+(()=>{
+const $=id=>document.getElementById(id);
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const form=$('qb'),bText=$('bText'),send=$('sendWa'),bPhoto=$('bPhoto'),bImg=$('bImg');
+const braided=['s-plaits','s-ghana','s-feed','s-boho','s-twist','s-kinky'];
+const lengthy=['s-plaits','s-boho','s-twist','s-kinky','s-feed','s-ghana'];
+const val=n=>{const el=form.querySelector('input[name="'+n+'"]:checked');return el?el.value:''};
+const id=n=>{const el=form.querySelector('input[name="'+n+'"]:checked');return el?el.id:''};
+function message(){
+  const st=id('style');const parts=['Hi Victoria, I\'d like a price for '+val('style')];
+  if(braided.includes(st)){const z=val('size');parts[0]+=z&&z!=='not sure'?', '+z+' size':'';}
+  if(lengthy.includes(st))parts[0]+=', '+val('len');
+  parts[0]+='.';
+  if(braided.includes(st)||st==='s-corn')parts.push(val('hair')+'.');
+  if(st==='s-corn'||braided.includes(st)){if(val('size')==='not sure')parts.push('I\'m not sure what size would suit me, so happy to take your advice.');}
+  const d=$('qDate').value;if(d){const dt=new Date(d+'T12:00:00');parts.push('Ideally on '+dt.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})+'.');}
+  parts.push('I can send a photo of the style I want.');
+  return parts.join('\n');
+}
+function toggle(){
+  const st=id('style');
+  $('fsSize').hidden=!braided.includes(st)&&st!=='s-corn';
+  $('fsLen').hidden=!lengthy.includes(st);
+  $('fsHair').hidden=!braided.includes(st)&&st!=='s-corn';
+}
+let typer=0;
+function render(animate){
+  toggle();const m=message();
+  send.href='https://wa.me/447886109836?text='+encodeURIComponent(m);
+  const run=++typer;
+  if(!animate||reduce){bText.textContent=m;return}
+  let i=Math.max(0,commonPrefix(bText.textContent,m));bText.textContent=m.slice(0,i);
+  (function step(){if(run!==typer)return;if(i<m.length){i=Math.min(m.length,i+2);bText.textContent=m.slice(0,i);requestAnimationFrame(step)}})();
+}
+function commonPrefix(a,b){let i=0;while(i<a.length&&i<b.length&&a[i]===b[i])i++;return i}
+form.addEventListener('change',()=>render(true));
+form.addEventListener('submit',e=>e.preventDefault());
+const now=new Date();$('bTime').textContent=now.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'});
+$('qDate').min=now.toISOString().slice(0,10);
+// photo bubble follows the chosen style where Victoria has a real example
+const photoFor={'s-plaits':'img/knotless-auburn.webp','s-boho':'img/boho-braids.webp'};
+function photo(src){if(src){bImg.src=src;bPhoto.hidden=false}else{bPhoto.hidden=true}}
+form.addEventListener('change',e=>{if(e.target.name==='style')photo(photoFor[e.target.id])});
+photo(photoFor['s-plaits']);
+function pick(styleId,sizeId,lenId,img){
+  const s=$(styleId);if(s)s.checked=true;if(sizeId&&$(sizeId))$(sizeId).checked=true;if(lenId&&$(lenId))$(lenId).checked=true;
+  photo(img||photoFor[styleId]);render(true);
+  $('quote').scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+}
+document.querySelectorAll('.ask').forEach(b=>b.addEventListener('click',()=>pick(b.dataset.style)));
+document.querySelectorAll('.want').forEach(b=>b.addEventListener('click',()=>pick(b.dataset.style,b.dataset.size,b.dataset.len,b.dataset.img)));
+render(false);
+// today's hours
+const tr=document.querySelector('.hours tr[data-d="'+now.getDay()+'"]');if(tr)tr.classList.add('today');
+// sticky bar after the hero
+const bar=$('bar');const onS=()=>bar.classList.toggle('show',scrollY>innerHeight*.6);addEventListener('scroll',onS,{passive:true});onS();
+})();
+</script>
+</body>
+</html>
