@@ -182,7 +182,7 @@ section{padding-block:clamp(72px,9vw,120px)}
 .menu h3{font-family:var(--serif);font-size:32px;line-height:1.05}
 .menu .price{font-size:.85rem;color:var(--mist);white-space:nowrap}
 .menu p{grid-column:1/-1;color:var(--mist);font-size:.98rem;max-width:46ch}
-.menu button{grid-column:1/-1;justify-self:start;font:700 .95rem/1.4 var(--sans);color:var(--gold);background:none;border:0;padding:6px 0;cursor:pointer;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.menu button{grid-column:1/-1;justify-self:start;font:700 .95rem/1.4 var(--sans);color:var(--gold);background:none;border:0;padding:12px 0;min-height:44px;cursor:pointer;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
 .menu button:hover{text-decoration-thickness:2px}
 @media (max-width:760px){.menu{grid-template-columns:1fr}}
 
@@ -203,7 +203,8 @@ address{font-style:normal;font-family:var(--serif);font-size:clamp(40px,5vw,64px
 address a{text-decoration:none}
 address a:hover{color:var(--gold)}
 .lines{display:grid;gap:8px;margin-bottom:26px;font-size:1.05rem}
-.lines a{font-weight:600;text-decoration-color:var(--gold);text-underline-offset:4px}
+.lines a{font-weight:600;text-decoration-color:var(--gold);text-underline-offset:4px;display:inline-flex;align-items:center;min-height:44px}
+.lines{gap:0}
 .hours{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
 .hours caption{text-align:left;font-family:var(--serif);font-size:36px;padding-bottom:10px}
 .hours th,.hours td{text-align:left;padding:13px 0;border-bottom:1px solid var(--line);font-weight:400}
@@ -454,7 +455,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 const $=id=>document.getElementById(id);
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const nav=$('nav'),bar=$('bar');
-const onS=()=>{nav.classList.toggle('solid',scrollY>40);bar.classList.toggle('show',scrollY>innerHeight*.9)};addEventListener('scroll',onS,{passive:true});onS();
+const qc=$('quote');const onS=()=>{nav.classList.toggle('solid',scrollY>40);const r=qc.getBoundingClientRect();const qIn=r.top<innerHeight&&r.bottom>0;bar.classList.toggle('show',scrollY>innerHeight*.9&&!qIn)};addEventListener('scroll',onS,{passive:true});onS();
 
 /* quote builder */
 const form=$('qb'),bText=$('bText'),send=$('sendWa');
