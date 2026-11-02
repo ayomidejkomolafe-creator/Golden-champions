@@ -9,11 +9,11 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Golden Champions | Braids and twists in Erith">
 <meta property="og:description" content="Braids by Victoria on Pier Road, Erith. Build your quote and send it on WhatsApp.">
-<meta property="og:image" content="https://golden-champions.vercel.app/img/knotless-auburn.webp">
+<meta property="og:image" content="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/p7692466074188664086.webp">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230E0B09'/%3E%3Cpath d='M22 8c0 11 20 11 20 22S22 41 22 52M42 8c0 11-20 11-20 22s20 11 20 22' fill='none' stroke='%23E0B254' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://videos.pexels.com">
+<link rel="preconnect" href="https://saprdphqntwqrmxnfihk.supabase.co">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <script type="application/ld+json">
 {
@@ -21,7 +21,7 @@
   "@type": "HairSalon",
   "name": "Golden Champions",
   "legalName": "Golden Champions UK Ltd",
-  "image": "https://golden-champions.vercel.app/img/knotless-auburn.webp",
+  "image": "https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/p7692466074188664086.webp",
   "telephone": ["+447886109836", "+441322335092"],
   "address": {"@type": "PostalAddress","streetAddress": "1a Pier Road","addressLocality": "Erith","addressRegion": "Kent","postalCode": "DA8 1TA","addressCountry": "GB"},
   "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens": "10:00","closes": "19:00"},{"@type": "OpeningHoursSpecification","dayOfWeek": "Saturday","opens": "09:00","closes": "19:00"}],
@@ -222,6 +222,40 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .bar.show{transform:none}
   .bar .btn{flex:1;min-height:46px;padding:12px}
 }
+
+/* ===== her own media ===== */
+.hero{min-height:0;padding-block:112px 150px}
+.hero::before{background:radial-gradient(60% 80% at 78% 40%,rgba(224,178,84,.16),transparent 70%),radial-gradient(50% 60% at 10% 90%,rgba(224,178,84,.07),transparent 70%)}
+.hero .wrap{grid-template-columns:1.1fr .9fr}
+.arch{margin:0;position:relative;justify-self:center;width:min(100%,420px)}
+.arch video{width:100%;aspect-ratio:9/14;object-fit:cover;border-radius:220px 220px 22px 22px;background:#1b140f;box-shadow:0 50px 100px -40px rgba(0,0,0,.9),0 0 0 1px rgba(224,178,84,.25)}
+.arch .tag{position:absolute;left:-22px;bottom:34px;background:rgba(14,11,9,.88);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:.9rem;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.arch .tag b{display:block;font-family:var(--serif);font-weight:400;font-size:1.25rem;line-height:1.1}
+.arch .tag span{color:var(--mist)}
+.arch .tag b::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:#E5484D;margin-right:8px;vertical-align:2px;animation:pulse 1.8s infinite}
+@media (max-width:980px){.hero{padding-block:100px 120px}.arch{width:min(100%,340px)}.arch .tag{left:10px}}
+.qsec{padding:0;margin-top:-96px;position:relative;z-index:2}
+.qsec .quote{display:grid;grid-template-columns:1.25fr .75fr;gap:28px;align-items:start;background:var(--bg-2);-webkit-backdrop-filter:none;backdrop-filter:none}
+.q-l,.q-r{min-width:0}
+.q-r{display:grid;gap:0}
+.q-r .chat{margin-top:0}
+@media (max-width:860px){.qsec .quote{grid-template-columns:1fr}.qsec{margin-top:-70px}}
+.work{grid-template-columns:repeat(3,minmax(0,1fr))}
+.work figure:nth-child(n){margin-top:0}
+.work figure:nth-child(3n+2){margin-top:56px}
+.work video{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;display:block;background:#1b140f}
+.work img{aspect-ratio:2/3}
+.vtag{position:absolute;top:12px;left:12px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 9px;border-radius:999px;background:rgba(14,11,9,.75);color:var(--text)}
+.vtag::before{content:"";display:inline-block;width:0;height:0;border-left:7px solid var(--gold);border-top:4.5px solid transparent;border-bottom:4.5px solid transparent;margin-right:6px}
+.work figure:nth-child(n+4){margin-top:0}
+.work figure:nth-child(5){margin-top:56px}
+@media (max-width:760px){.work figure:nth-child(n){margin-top:0}}
+.band{padding-block:clamp(72px,9vw,120px);background:radial-gradient(60% 80% at 80% 50%,rgba(224,178,84,.12),transparent 70%),var(--bg)}
+.band::before{display:none}
+.band-in{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,72px);align-items:center}
+.phone-v{margin:0;justify-self:center;width:min(100%,360px)}
+.phone-v video{position:static;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:28px;background:#1b140f;box-shadow:0 0 0 10px #050403,0 0 0 11px var(--line),0 50px 100px -40px rgba(0,0,0,.9);z-index:auto}
+@media (max-width:860px){.band-in{grid-template-columns:1fr}.phone-v{width:min(100%,300px)}}
 </style>
 </head>
 <body>
@@ -243,11 +277,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 </nav>
 
 <header class="hero" id="top">
-  <div class="poster" style="background-image:url('https://images.pexels.com/videos/7951295/adult-asian-baby-barber-7951295.jpeg?auto=compress&w=1600')"></div>
-  <video id="heroVid" autoplay muted loop playsinline preload="metadata" poster="https://images.pexels.com/videos/7951295/adult-asian-baby-barber-7951295.jpeg?auto=compress&w=1600" aria-hidden="true">
-    <source src="https://videos.pexels.com/video-files/7951295/7951295-hd_1920_1080_30fps.mp4" type="video/mp4" media="(min-width:900px)">
-    <source src="https://videos.pexels.com/video-files/7951295/7951295-hd_1280_720_30fps.mp4" type="video/mp4">
-  </video>
   <div class="wrap">
     <div>
       <div class="eyebrow">Braids by Victoria · 1a Pier Road, Erith</div>
@@ -263,8 +292,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div><p>Every head of hair is different, so Victoria quotes every style herself before you book.</p><b>Victoria <span>· Golden Champions</span></b></div>
       </div>
     </div>
+    <figure class="arch">
+      <video id="heroVid" class="seg" data-start="6" data-end="40" muted playsinline preload="metadata" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7684330092297719062.webp" src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7684330092297719062.mp4" aria-label="Single plaits being done in the salon on Pier Road"></video>
+      <figcaption class="tag"><b>Live from Pier Road</b><span>Single plaits in progress</span></figcaption>
+    </figure>
+  </div>
+</header>
 
-    <div class="quote" id="quote">
+<section class="qsec" aria-label="Build your quote"><div class="wrap">
+    <div class="quote" id="quote"><div class="q-l">
       <div class="q-top"><span class="eyebrow">Instant quote</span><span class="live"><i></i>Replies on WhatsApp</span></div>
       <h2>What are we doing today?</h2>
       <form id="qb" novalidate>
@@ -308,6 +344,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           </div>
         </fieldset>
       </form>
+    </div><div class="q-r">
       <div class="chat" aria-live="polite">
         <div class="chat-h"><span class="av" aria-hidden="true">V</span><b>Golden Champions</b> · your message</div>
         <div class="bubble"><span id="bText"></span><span class="caret" aria-hidden="true"></span><span class="t" id="bTime">now</span></div>
@@ -317,9 +354,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         Send to Victoria
       </a>
       <p class="fine">Opens WhatsApp with this message ready. Add a photo of the look for the quickest price.</p>
-    </div>
-  </div>
-</header>
+    </div></div>
+</div></section>
 
 <div class="strip"><div class="wrap"><ul>
   <li>1a Pier Road, Erith</li><li>Mon–Fri 10–7 · Sat 9–7</li><li>Sundays by appointment</li><li>No need to detangle first</li>
@@ -328,7 +364,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <section id="length" aria-labelledby="len-h">
   <div class="wrap len">
     <div class="stage" id="stage">
-      <img src="img/knotless-auburn.webp" alt="Long single plaits in black with auburn, done at Golden Champions, seen from behind" width="800" height="1200">
+      <img src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/p7692466074188664086.webp" alt="Long single plaits in black with auburn, done at Golden Champions, seen from behind" width="720" height="1280">
       <div class="fade" id="fade"></div>
       <div class="line" id="lline"></div>
       <div class="ticks" id="ticks"><span data-i="0">Shoulder</span><span data-i="1">Mid-back</span><span data-i="2">Waist</span><span data-i="3">Longer</span></div>
@@ -353,16 +389,28 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     </div>
     <div class="work">
       <figure>
-        <div class="ph"><img src="img/knotless-auburn.webp" alt="Small single plaits in black with auburn, mid-back length" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-small" data-len="l-1">I want this</button></div>
-        <figcaption>Single plaits<span>Small · black and auburn</span></figcaption>
+        <div class="ph"><img src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/p7693535955763989782.webp" alt="Medium single plaits in black, mid-back length" width="720" height="1280" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-med" data-len="l-1">I want this</button></div>
+        <figcaption>Single plaits<span>Medium · natural black</span></figcaption>
       </figure>
       <figure>
-        <div class="ph"><img src="img/boho-braids.webp" alt="Brown boho braids with curly ends" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-boho" data-size="z-med" data-len="l-1">I want this</button></div>
+        <div class="ph"><video class="seg lazyv" data-start="4" data-end="22" muted playsinline preload="none" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7683907632704261398.webp" data-src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7683907632704261398.mp4" aria-label="Cornrows being finished in the salon"></video><span class="vtag">Video</span><button type="button" class="btn btn-gold btn-sm want" data-style="s-corn" data-size="z-med" data-len="">I want this</button></div>
+        <figcaption>Cornrows<span>Straight back, own hair</span></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><img src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/p7692471986655612182.webp" alt="Boho braids with curly ends" width="720" height="1280" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-boho" data-size="z-med" data-len="l-1">I want this</button></div>
         <figcaption>Boho braids<span>Medium · curled ends</span></figcaption>
       </figure>
       <figure>
-        <div class="ph"><img src="img/box-braids.webp" alt="Black medium single plaits, past shoulder length" width="800" height="1200" loading="lazy"><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-med" data-len="l-0">I want this</button></div>
-        <figcaption>Single plaits<span>Medium · jet black</span></figcaption>
+        <div class="ph"><video class="seg lazyv" data-start="0" data-end="15" muted playsinline preload="none" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7692060760050076950.webp" data-src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7692060760050076950.mp4" aria-label="Twist braids, finished look"></video><span class="vtag">Video</span><button type="button" class="btn btn-gold btn-sm want" data-style="s-twist" data-size="z-med" data-len="l-1">I want this</button></div>
+        <figcaption>Twist braids<span>Medium · mid-back</span></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><video class="seg lazyv" data-start="0" data-end="15" muted playsinline preload="none" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7683906989558107414.webp" data-src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7683906989558107414.mp4" aria-label="Blonde braids, finished look"></video><span class="vtag">Video</span><button type="button" class="btn btn-gold btn-sm want" data-style="s-plaits" data-size="z-med" data-len="l-1">I want this</button></div>
+        <figcaption>Single plaits<span>Blonde · mid-back</span></figcaption>
+      </figure>
+      <figure>
+        <div class="ph"><video class="seg lazyv" data-start="2" data-end="28" muted playsinline preload="none" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7684634916461645058.webp" data-src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7684634916461645058.mp4" aria-label="Natural twists, finished look"></video><span class="vtag">Video</span><button type="button" class="btn btn-gold btn-sm want" data-style="s-kinky" data-size="z-med" data-len="l-0">I want this</button></div>
+        <figcaption>Kinky twists<span>Natural finish</span></figcaption>
       </figure>
     </div>
     <div class="more"><a class="btn btn-ghost btn-sm" href="https://www.tiktok.com/@doldun" target="_blank" rel="noopener">More on TikTok @doldun</a></div>
@@ -370,12 +418,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 </section>
 
 <section class="band" aria-label="Before your appointment">
-  <video muted loop playsinline preload="none" poster="https://images.pexels.com/videos/7951299/adult-asian-beauty-black-7951299.jpeg?auto=compress&w=1600" data-src="https://videos.pexels.com/video-files/7951299/7951299-hd_1280_720_30fps.mp4" aria-hidden="true"></video>
-  <div class="wrap">
-    <div class="eyebrow">Before you come in</div>
-    <h2 style="margin-top:16px">Come as you are. <em>We'll do the rest.</em></h2>
-    <p>No need to detangle your hair first. Victoria preps it before she starts, so just turn up at your time.</p>
-    <a class="btn btn-gold" href="#quote">Get my quote</a>
+  <div class="wrap band-in">
+    <div>
+      <div class="eyebrow">Before you come in</div>
+      <h2 style="margin-top:16px">Come as you are. <em>Leave like this.</em></h2>
+      <p>No need to detangle your hair first. Victoria preps it before she starts, so just turn up at your time.</p>
+      <a class="btn btn-gold" href="#quote">Get my quote</a>
+    </div>
+    <figure class="phone-v"><video class="seg lazyv" data-start="6" data-end="58" muted playsinline preload="none" poster="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/web/poster-v7691741031548685590.webp" data-src="https://saprdphqntwqrmxnfihk.supabase.co/storage/v1/object/public/client-media/golden-champions/v7691741031548685590.mp4" aria-label="A happy customer dancing in the salon after her appointment"></video></figure>
   </div>
 </section>
 
@@ -441,7 +491,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <footer>
   <div class="wrap">
     <span>Golden Champions UK Ltd · Company no. 15251300 · 1a Pier Road, Erith, DA8 1TA · 01322 335092</span>
-    <span>Video: Pexels · Site by Tapcard</span>
+    <span>Photos and videos: Golden Champions · Site by Tapcard</span>
   </div>
 </footer>
 
@@ -488,7 +538,7 @@ $('bTime').textContent=new Date().toLocaleTimeString('en-GB',{hour:'2-digit',min
 function goQuote(){$('quote').scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'})}
 function pick(styleId,sizeId,lenId){[styleId,sizeId,lenId].forEach(i=>{if(i&&$(i))$(i).checked=true});render(true);goQuote()}
 document.querySelectorAll('.ask').forEach(b=>b.addEventListener('click',()=>pick(b.dataset.style)));
-document.querySelectorAll('.want').forEach(b=>b.addEventListener('click',()=>{pick(b.dataset.style,b.dataset.size,b.dataset.len);setLen(+b.dataset.len.slice(2))}));
+document.querySelectorAll('.want').forEach(b=>b.addEventListener('click',()=>{pick(b.dataset.style,b.dataset.size,b.dataset.len);if(b.dataset.len)setLen(+b.dataset.len.slice(2))}));
 render(false);
 
 /* length picker */
@@ -522,10 +572,13 @@ let swept=false;new IntersectionObserver(es=>{if(es[0].isIntersecting&&!swept&&!
 /* hours */
 const tr=document.querySelector('.hours tr[data-d="'+new Date().getDay()+'"]');if(tr)tr.classList.add('today');
 
-/* videos */
-const hv=$('heroVid');if(reduce&&hv){hv.removeAttribute('autoplay');hv.pause()}
-const lazy=[...document.querySelectorAll('video[data-src]')];
-if(!reduce&&'IntersectionObserver' in window){const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){if(!v.src)v.src=v.dataset.src;v.play().catch(()=>{})}else if(v.src)v.pause()}),{rootMargin:'200px'});lazy.forEach(v=>io.observe(v))}
+/* videos: her clips play a chosen segment on loop, only while on screen */
+const segs=[...document.querySelectorAll('video.seg')];
+segs.forEach(v=>{const a=+v.dataset.start||0,b=+v.dataset.end||0;
+  v.addEventListener('loadedmetadata',()=>{if(v.currentTime<a)v.currentTime=a});
+  v.addEventListener('timeupdate',()=>{if(b&&v.currentTime>=b)v.currentTime=a});
+  v.addEventListener('ended',()=>{v.currentTime=a;v.play().catch(()=>{})});});
+if(!reduce&&'IntersectionObserver' in window){const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){if(!v.getAttribute('src')&&v.dataset.src)v.src=v.dataset.src;v.play().catch(()=>{})}else v.pause()}),{rootMargin:'150px'});segs.forEach(v=>io.observe(v))}
 })();
 </script>
 </body>
