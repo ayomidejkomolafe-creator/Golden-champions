@@ -228,7 +228,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .hero::before{background:radial-gradient(60% 80% at 78% 40%,rgba(224,178,84,.16),transparent 70%),radial-gradient(50% 60% at 10% 90%,rgba(224,178,84,.07),transparent 70%)}
 .hero .wrap{grid-template-columns:1.1fr .9fr}
 .arch{margin:0;position:relative;justify-self:center;width:min(100%,420px)}
-.arch video{width:100%;aspect-ratio:9/14;object-fit:cover;border-radius:220px 220px 22px 22px;background:#1b140f;box-shadow:0 50px 100px -40px rgba(0,0,0,.9),0 0 0 1px rgba(224,178,84,.25)}
+.arch video{position:static;inset:auto;z-index:auto;height:auto;width:100%;aspect-ratio:9/14;object-fit:cover;border-radius:220px 220px 22px 22px;background:#1b140f;box-shadow:0 50px 100px -40px rgba(0,0,0,.9),0 0 0 1px rgba(224,178,84,.25)}
 .arch .tag{position:absolute;left:-22px;bottom:34px;background:rgba(14,11,9,.88);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:.9rem;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 .arch .tag b{display:block;font-family:var(--serif);font-weight:400;font-size:1.25rem;line-height:1.1}
 .arch .tag span{color:var(--mist)}
